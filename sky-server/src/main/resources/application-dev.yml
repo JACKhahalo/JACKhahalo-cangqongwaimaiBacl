@@ -1,0 +1,22 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: root
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    # password:
+    database: 1
+
+  alioss:
+    #    endpoint: oss-cn-guangzhou
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    access-key-id: LTAI5t8ruJc9hhxMQSfBUKYN
+    access-key-secret: ycaysD6J2WCGJIq27UHeE9RTwdqshs
+    bucket-name: hathaway-db
