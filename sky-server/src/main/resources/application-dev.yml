@@ -8,8 +8,8 @@ sky:
     password: root
 
   wechat:
-    appid: wx24906714f3ac3714
-    secret: 8bb5178142a72cf7f19c1030070d5655
+    appid: *
+    secret: *
 spring:
   redis:
     host: localhost
@@ -19,9 +19,9 @@ spring:
 
   alioss:
     #    endpoint: oss-cn-guangzhou
-    endpoint: oss-cn-guangzhou.aliyuncs.com
-    access-key-id: LTAI5t8ruJc9hhxMQSfBUKYN
-    access-key-secret: ycaysD6J2WCGJIq27UHeE9RTwdqshs
-    bucket-name: hathaway-db
+    endpoint: *
+    access-key-id: *
+    access-key-secret: *
+    bucket-name: *
 
 
